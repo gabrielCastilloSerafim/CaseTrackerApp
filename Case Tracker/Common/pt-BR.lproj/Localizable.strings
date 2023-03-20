@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Case Tracker
+
+  Created by Gabriel Castillo Serafim on 20/3/23.
+  
+*/
+
+// MARK: - PORTUGUESE LOCALIZED STRINGS
+
+"hello" = "Olá %@ %@";
