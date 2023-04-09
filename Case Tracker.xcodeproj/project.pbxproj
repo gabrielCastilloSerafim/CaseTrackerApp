@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53C9A9DA29DEAD9D009DA516 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D429DEAD9D009DA516 /* HomePresenter.swift */; };
+		53C9A9DB29DEAD9D009DA516 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D529DEAD9D009DA516 /* HomeRouter.swift */; };
+		53C9A9DC29DEAD9D009DA516 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D629DEAD9D009DA516 /* HomeProtocols.swift */; };
+		53C9A9DD29DEAD9D009DA516 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D729DEAD9D009DA516 /* HomeInteractor.swift */; };
+		53C9A9DE29DEAD9D009DA516 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D829DEAD9D009DA516 /* HomeView.swift */; };
+		53C9A9DF29DEAD9D009DA516 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9D929DEAD9D009DA516 /* HomeRemoteDataManager.swift */; };
+		53C9A9E229DF1795009DA516 /* BaseViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9E129DF1795009DA516 /* BaseViper.swift */; };
+		53C9A9E529E06E99009DA516 /* MyCasesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9E429E06E99009DA516 /* MyCasesCell.swift */; };
+		53C9A9E729E1F5C7009DA516 /* HomeEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9A9E629E1F5C7009DA516 /* HomeEntities.swift */; };
 		53D4A80129C87B93004199B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4A80029C87B93004199B0 /* AppDelegate.swift */; };
 		53D4A80329C87B93004199B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4A80229C87B93004199B0 /* SceneDelegate.swift */; };
 		53D4A80529C87B93004199B0 /* MainControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4A80429C87B93004199B0 /* MainControllers.swift */; };
@@ -17,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53C9A9D429DEAD9D009DA516 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		53C9A9D529DEAD9D009DA516 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		53C9A9D629DEAD9D009DA516 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		53C9A9D729DEAD9D009DA516 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		53C9A9D829DEAD9D009DA516 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		53C9A9D929DEAD9D009DA516 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		53C9A9E129DF1795009DA516 /* BaseViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViper.swift; sourceTree = "<group>"; };
+		53C9A9E429E06E99009DA516 /* MyCasesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCasesCell.swift; sourceTree = "<group>"; };
+		53C9A9E629E1F5C7009DA516 /* HomeEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntities.swift; sourceTree = "<group>"; };
 		53D4A7FD29C87B93004199B0 /* Case Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Case Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D4A80029C87B93004199B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53D4A80229C87B93004199B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +60,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53C9A9E029DEADA4009DA516 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53C9A9E329E06E3A009DA516 /* TableViewCells */,
+				53C9A9D429DEAD9D009DA516 /* HomePresenter.swift */,
+				53C9A9D529DEAD9D009DA516 /* HomeRouter.swift */,
+				53C9A9D629DEAD9D009DA516 /* HomeProtocols.swift */,
+				53C9A9D729DEAD9D009DA516 /* HomeInteractor.swift */,
+				53C9A9D829DEAD9D009DA516 /* HomeView.swift */,
+				53C9A9D929DEAD9D009DA516 /* HomeRemoteDataManager.swift */,
+				53C9A9E629E1F5C7009DA516 /* HomeEntities.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53C9A9E329E06E3A009DA516 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				53C9A9E429E06E99009DA516 /* MyCasesCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		53D4A7F429C87B93004199B0 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +118,7 @@
 				53D4A80029C87B93004199B0 /* AppDelegate.swift */,
 				53D4A80229C87B93004199B0 /* SceneDelegate.swift */,
 				53D4A80429C87B93004199B0 /* MainControllers.swift */,
+				53C9A9E129DF1795009DA516 /* BaseViper.swift */,
 				53D4A80929C87B96004199B0 /* Assets.xcassets */,
 				53D4A80B29C87B96004199B0 /* LaunchScreen.storyboard */,
 			);
@@ -86,6 +128,7 @@
 		53D4A81829C87CBC004199B0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				53C9A9E029DEADA4009DA516 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -177,10 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C9A9DE29DEAD9D009DA516 /* HomeView.swift in Sources */,
 				53D4A82229C87D66004199B0 /* ExtensionStrings.swift in Sources */,
+				53C9A9DB29DEAD9D009DA516 /* HomeRouter.swift in Sources */,
 				53D4A80529C87B93004199B0 /* MainControllers.swift in Sources */,
+				53C9A9DD29DEAD9D009DA516 /* HomeInteractor.swift in Sources */,
+				53C9A9E529E06E99009DA516 /* MyCasesCell.swift in Sources */,
 				53D4A80129C87B93004199B0 /* AppDelegate.swift in Sources */,
+				53C9A9DF29DEAD9D009DA516 /* HomeRemoteDataManager.swift in Sources */,
+				53C9A9DC29DEAD9D009DA516 /* HomeProtocols.swift in Sources */,
+				53C9A9DA29DEAD9D009DA516 /* HomePresenter.swift in Sources */,
+				53C9A9E729E1F5C7009DA516 /* HomeEntities.swift in Sources */,
 				53D4A80329C87B93004199B0 /* SceneDelegate.swift in Sources */,
+				53C9A9E229DF1795009DA516 /* BaseViper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

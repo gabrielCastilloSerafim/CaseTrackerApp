@@ -9,3 +9,10 @@
 // MARK: - ENGLISH LOCALIZED STRINGS
 
 "hello" = "Hello %@ %@";
+"home_title" = "Case Tracker";
+"home_subtitle" = "by Imigre Fácil";
+"my_cases" = "My Cases:";
+"activity_title" = "Activity:";
+"rejected_label" = "Rejected";
+"pending_label" = "Pending";
+"approved_label" = "Approved";
